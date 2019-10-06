@@ -1312,6 +1312,7 @@
   margin-right: -5px;
 }
 
+
 .btn,
 .navbar .navbar-nav > a.btn {
   border-width: 2px;
@@ -3243,7 +3244,7 @@ body {
 .navbar {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-  min-height: 53px;
+  min-height: 10px;
   margin-bottom: 20px;
   -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
@@ -3367,11 +3368,12 @@ body {
 }
 
 .navbar.navbar-transparent {
-  background-color: transparent !important;
+  background-color: black !important;
+  opacity: 0.9;
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #FFFFFF;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item) {
@@ -5132,7 +5134,7 @@ Created using IcoMoon - icomoon.io
 
 .page-header {
   height: 100vh;
-  max-height: 1050px;
+  max-height: 150px;
   padding: 0;
   color: #FFFFFF;
   position: relative;
@@ -7112,9 +7114,9 @@ Created using IcoMoon - icomoon.io
   border-radius: 50%;
   height: 180px;
   width: 180px;
-  padding: 0;
-  margin: 0;
-  border: 15px solid transparent;
+  padding-top: 0px;
+  margin-top:0px;
+  border: 10+px solid transparent;
   z-index: 9999;
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
