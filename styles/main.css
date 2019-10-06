@@ -419,8 +419,12 @@
   border-radius: 3px;
   background: #FFF;
   cursor: default;
-  -webkit-box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
-          box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
+  -webkit-box-shadow: inset 0 0 1px #FFF,
+ inset 0 1px 7px #EBEBEB,
+ 0 3px 6px -3px #BBB;
+          box-shadow: inset 0 0 1px #FFF,
+ inset 0 1px 7px #EBEBEB,
+ 0 3px 6px -3px #BBB;
   -webkit-transition: 300ms ease 0s;
   -moz-transition: 300ms ease 0s;
   -ms-transition: 300ms ease 0s;
@@ -671,7 +675,7 @@
 }
 
 .datepicker.datepicker-primary {
-  background-color: #378C3F;
+  background-color: rgba(244, 176, 30, 0.961);
 }
 
 .datepicker.datepicker-primary th,
@@ -716,7 +720,7 @@
 .datepicker.datepicker-primary table tr td.active.disabled div,
 .datepicker.datepicker-primary table tr td.active.disabled:hover div {
   background-color: #FFFFFF;
-  color: #378C3F;
+  color: #eb9500;
 }
 
 .datepicker.datepicker-primary table tr td.day:hover div,
@@ -1511,7 +1515,7 @@ fieldset[disabled]
 }
 
 .btn-primary {
-  background-color: #378C3F;
+  background-color: #eb9500;
   color: #FFFFFF;
 }
 
@@ -1519,7 +1523,7 @@ fieldset[disabled]
 .show > .btn-primary.dropdown-toggle,
 .show > .btn-primary.dropdown-toggle:focus,
 .show > .btn-primary.dropdown-toggle:hover {
-  background-color: #40a249;
+  background-color: #ffb12a;
   color: #FFFFFF;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -2821,16 +2825,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+
 small {
   font-size: 60%;
 }
 
 a {
-  color: #378C3F;
+  color: #eb9500;
 }
 
 a:hover, a:focus {
-  color: #378C3F;
+  color: #eb9500;
 }
 
 h1, .h1 {
@@ -2920,7 +2925,7 @@ p {
 }
 
 .text-primary {
-  color: #378C3F !important;
+  color: #eb9500 !important;
 }
 
 .text-info {
@@ -2958,12 +2963,12 @@ p {
 }
 
 .blockquote.blockquote-primary {
-  border-color: #378C3F;
-  color: #378C3F;
+  border-color: #eb9500;
+  color: #eb9500;
 }
 
 .blockquote.blockquote-primary small {
-  color: #378C3F;
+  color: #eb9500;
 }
 
 .blockquote.blockquote-danger {
@@ -3094,7 +3099,7 @@ body {
 
 .nav-pills.nav-pills-neutral .nav-item .nav-link.active, .nav-pills.nav-pills-neutral .nav-item .nav-link.active:focus, .nav-pills.nav-pills-neutral .nav-item .nav-link.active:hover {
   background-color: #FFFFFF;
-  color: #378C3F;
+  color: #eb9500;
 }
 
 .nav-pills.nav-pills-primary .nav-item .nav-link.active, .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus, .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
@@ -3211,8 +3216,8 @@ body {
 }
 
 .nav-tabs.nav-tabs-primary > .nav-item > .nav-link.active {
-  border-color: #378C3F;
-  color: #378C3F;
+  border-color: #eb9500;
+  color: #eb9500;
 }
 
 .nav-tabs.nav-tabs-info > .nav-item > .nav-link.active {
@@ -3231,8 +3236,8 @@ body {
 }
 
 .nav-tabs.nav-tabs-success > .nav-item > .nav-link.active {
-  border-color: #18ce0f;
-  color: #18ce0f;
+  border-color: #eb9500;
+  color: #eb9500;
 }
 
 .navbar {
@@ -3398,7 +3403,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #378C3F !important;
+  background-color: #212121 !important;
 }
 
 .bg-info {
@@ -3476,11 +3481,11 @@ body {
 }
 
 .dropdown-menu.dropdown-primary {
-  background-color: #33813a;
+  background-color: #eb9500;
 }
 
 .dropdown-menu.dropdown-primary:before {
-  color: #33813a;
+  color: #eb9500;
 }
 
 .dropdown-menu.dropdown-primary .dropdown-header:not([href]):not([tabindex]) {
@@ -4840,7 +4845,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .profile-page .page-header {
-  min-height: 550px;
+  min-height: 350px;
 }
 
 .profile-page .profile-container {
@@ -5593,7 +5598,7 @@ Created using IcoMoon - icomoon.io
     display: block;
     top: 0;
     height: 100% !important;
-    width: 300px;
+    width: 325px;
     right: 0;
     z-index: 1032;
     visibility: visible;
@@ -7098,10 +7103,6 @@ Created using IcoMoon - icomoon.io
   width: 180px;
   position: absolute;
   left: 0;
-  -webkit-animation: pulsate 1.6s ease-out;
-          animation: pulsate 1.6s ease-out;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
   opacity: 0.0;
   z-index: 99;
 }
@@ -7164,9 +7165,9 @@ Created using IcoMoon - icomoon.io
 
 /* Experience Style */
 .cc-experience .cc-experience-header {
-  padding-top: 60px;
+  padding-top: 25px;
   padding-right: 0;
-  text-align: center;
+  text-align: left;
   color: #fff;
   text-transform: uppercase;
 }
@@ -7177,10 +7178,11 @@ Created using IcoMoon - icomoon.io
 }
 
 .cc-education .cc-education-header {
-  padding-top: 60px;
+  padding-top: 25px;
   padding-right: 0;
-  text-align: center;
+  text-align: left;
   color: #fff;
+  text-transform: uppercase;
 }
 
 /* References Style */
