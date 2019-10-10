@@ -3404,8 +3404,13 @@ body {
   background-color: #888 !important;
 }
 
+/* change background */
 .bg-primary {
   background-color: #212121 !important;
+}
+
+.bg-education {
+  background-color: #808080 !important;
 }
 
 .bg-info {
@@ -4638,7 +4643,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .card .card-body {
-  min-height: 190px;
+  min-height: 30px;
 }
 
 .card[data-background-color="orange"] {
@@ -7169,9 +7174,10 @@ Created using IcoMoon - icomoon.io
 .cc-experience .cc-experience-header {
   padding-top: 25px;
   padding-right: 0;
-  text-align: left;
+  text-align: center;
   color: #fff;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 /* Education Style */
@@ -7182,9 +7188,10 @@ Created using IcoMoon - icomoon.io
 .cc-education .cc-education-header {
   padding-top: 25px;
   padding-right: 0;
-  text-align: left;
+  text-align: center;
   color: #fff;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 /* References Style */
