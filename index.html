@@ -16,7 +16,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128276780-2"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'UA-128276780-2');
@@ -59,8 +59,9 @@
                 <div class="cc-profile-image"><a href="#"><img src="images/james.png" alt="Image" /></a></div>
                 <div class="h2 title">James Chua</div>
                 <p class="category text-white">Business Analytics student</p><a class="btn btn-primary" target="_blank"
-                  href="download/James_ShaoHwee_Chua_Resume.pdf" data-aos="zoom-in"
-                  data-aos-anchor="data-aos-anchor">Download CV</a>
+                  href="download/James_ShaoHwee_Chua_Resume.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor"
+                  onclick="ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'resume'});">Download
+                  CV</a>
               </div>
             </div>
             <div class="section">
@@ -279,10 +280,12 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                      <a href="https://averageface.wordpress.com/2019/08/04/gender-imbalance-in-nus-visualized/" target="_blank">
+                      <a href="https://averageface.wordpress.com/2019/08/04/gender-imbalance-in-nus-visualized/"
+                        target="_blank">
                         <figure class="cc-effect"><img src="images/average.png" alt="Image" />
                           <figcaption>
-                            <div class="h4">Can neural nets tell apart STEM and Arts students? Average faces of faculties</div>
+                            <div class="h4">Can neural nets tell apart STEM and Arts students? Average faces of
+                              faculties</div>
                             <p>Web Scraping / Data Mining</p>
                           </figcaption>
                         </figure>
@@ -367,7 +370,7 @@
           </div>
         </div>
       </div>
-          <!-- <div class="section" id="reference">
+      <!-- <div class="section" id="reference">
         <div class="container cc-reference">
           <div class="h4 mb-4 text-center title">References</div>
           <div class="card" data-aos="zoom-in">
@@ -431,19 +434,19 @@
           </div>
         </div>
       </div> -->
-    <footer class="footer">
-      <div class="h4 title text-center">James Chua</div>
-      <div class="text-center text-muted">
-        <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com"
-            target="_blank">TemplateFlip</a></p>
-      </div>
-    </footer>
-    <script src="js/core/jquery.3.2.1.min.js"></script>
-    <script src="js/core/popper.min.js"></script>
-    <script src="js/core/bootstrap.min.js"></script>
-    <script src="js/now-ui-kit.js?v=1.1.0"></script>
-    <script src="js/aos.js"></script>
-    <script src="scripts/main.js"></script>
+      <footer class="footer">
+        <div class="h4 title text-center">James Chua</div>
+        <div class="text-center text-muted">
+          <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com"
+              target="_blank">TemplateFlip</a></p>
+        </div>
+      </footer>
+      <script src="js/core/jquery.3.2.1.min.js"></script>
+      <script src="js/core/popper.min.js"></script>
+      <script src="js/core/bootstrap.min.js"></script>
+      <script src="js/now-ui-kit.js?v=1.1.0"></script>
+      <script src="js/aos.js"></script>
+      <script src="scripts/main.js"></script>
 </body>
 
 </html>
