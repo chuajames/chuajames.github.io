@@ -18,7 +18,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('send', 'pageview');
     gtag('config', 'UA-128276780-2');
   </script>
 </head>
@@ -60,7 +59,7 @@
                 <div class="h2 title">James Chua</div>
                 <p class="category text-white">Business Analytics student</p><a class="btn btn-primary" target="_blank"
                   href="download/James_ShaoHwee_Chua_Resume.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor"
-                  onclick="gtag('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'resume'});">Download
+                  onclick="gtag('event', 'click',{ 'event_category': 'download', 'event_label': 'resume'});">Download
                   CV</a>
               </div>
             </div>
